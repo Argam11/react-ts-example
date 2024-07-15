@@ -2,10 +2,10 @@ import "./App.css";
 import Test from "./Test";
 
 const x = true;
+console.log(123);
+
 
 function App() {
-  console.log('cherry pick 2');
-  
   return (
     <div>
       <Test current={2}>
