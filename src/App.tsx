@@ -4,6 +4,8 @@ import Test from "./Test";
 const x = true;
 
 function App() {
+  console.log(1);
+  
   return (
     <div>
       <Test current={2}>
