@@ -2,21 +2,27 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "asd": "ts-node script/main.ts"
   },
   "dependencies": {
     "@linaria/babel-preset": "^5.0.4",
     "@linaria/core": "^6.2.0",
     "@linaria/react": "^6.2.1",
+    "i18next": "^23.16.1",
+    "i18next-http-backend": "^2.6.2",
     "rc-select": "^14.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.11"
+    "react-google-recaptcha": "^3.1.0",
+    "react-i18next": "^15.0.3",
+    "styled-components": "^6.1.11",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

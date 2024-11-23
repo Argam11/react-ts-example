@@ -1,0 +1,12 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+        padding: 8px 5px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+    }
+}
